@@ -1,0 +1,64 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+#app {
+  width: 100%;
+  height: 100%;
+}
+.navbar-brand {
+  padding: 15px 10px !important;
+}
+.panel-body {
+  padding: 2px !important;
+  background-color: #eee;
+}
+.badge {
+  color: #fff;
+  background-color: gray;
+}
+.danger {
+  color: #fff;
+  background-color: red;
+}
+.success {
+  color: #fff;
+  background-color: green;
+}
+
+form {
+  display: flex;
+  padding: 1px;
+  border-bottom: #ddd 1px solid;
+}
+.form-control {
+  padding: 0.5em 1em;
+  width: 100% !important;
+  flex-grow: 1;
+}
+.record .form-control {
+  box-sizing: border-box;
+  border: none !important;
+  box-shadow: none !important;
+}
+.form-group {
+  flex-grow: 1;
+  margin: 0px;
+}
+div.checkbox {
+  height: 34px;
+  width: 34px;
+}
+button {
+  padding: 0.5em 1em;
+  border: none;
+  height: 34px;
+}
+.done {
+    text-decoration: line-through;
+}
+
+.prime {
+    margin: 3px;
+    padding: 3px;
+}
